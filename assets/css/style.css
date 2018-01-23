@@ -1,0 +1,232 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url("../images/sayagata-400px.png");
+	margin: 0px;
+}
+
+header {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px;
+	width: 250px;
+	text-align: center;
+	margin: 0px;
+	float: left;
+	position: relative;
+	left: 100px;
+}
+
+nav {
+	color: #eeeeee;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 2px;
+	padding-top: 25px;
+	padding-right: 350px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	text-align: right;
+	font-weight: lighter;
+}
+
+main {
+	width: 960px;
+	padding-top: 35px;
+    position: relative;
+    left: 100px;
+}
+
+aside {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	width: 209px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-left: 20px;
+}
+
+footer {
+	font-size: 12px;
+	color: #bbbbbb;
+	background-color: #666666;
+	position: fixed;
+	bottom: 0;
+	clear: both;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 10px;
+    border-color: #4aaaa5;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+p {
+	line-height: 1.8
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: #4aaaa5;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #55BDEC;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+#article {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	width: 569px;
+	padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    float: left;
+    margin-right: 20px;
+}
+
+#profile-image {
+	float: left;
+	padding-right: 20px;
+}
+
+.social {
+	height: 50px;
+	width: 50px;
+}
+
+.style1 {
+	border: 1;
+    height: 1;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.style2 {
+	border: 0;
+    height: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+#gallery {
+	position: relative;
+    	width: 650px;
+   	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.cell {
+	float: left;
+	padding: 20px;
+    
+}
+
+.pjs {      
+    	width: 200px;
+    	height: 150px;
+    	z-index: -1;
+}
+
+h4 {
+	background-color: #4aaaa5;
+    	height: 50px;    
+    	color: white;
+	text-align: center;
+	line-height: 50px;    
+}
+
+#pj01 {
+	position: absolute;
+	bottom: -160px;
+    	width: 200px;
+}
+
+#pj02 {
+	position: absolute;
+	bottom: -160px;
+    	width: 200px;
+}
+
+#pj03 {
+	position: absolute;
+	bottom: -355px;
+    	width: 200px;
+}
+
+#pj04 {
+	position: absolute;
+	bottom: -355px;
+    	width: 200px;
+}
+
+#pj05 {
+	position: absolute;
+	bottom: -550px;
+    	width: 200px;
+}
